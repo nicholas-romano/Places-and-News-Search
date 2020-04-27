@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>News & Photos Dashboard</title>
+
+</head>
+<body>
+
+   <!--Navbar-->
+  <div class="navbar-fixed"> 
+    <nav>
+      <div class="nav-wrapper blue darken-3">
+        <a href="#!" class="brand-logo"><i class="material-icons">blur_on</i>News and Photos</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active"><a href="index.html">Dashboard</a></li>
+          <li><a href="places-search.html">Search Places</a></li>
+          <li><a href="news-article-search.html">Search News</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li class="active"><a href="index.html">Dashboard</a></li>
+    <li><a href="places-search.html">Search Places</a></li>
+    <li><a href="news-article-search.html">Search News</a></li>
+    <li><a href="favorites.html">Favorites</a></li>
+  </ul>
+<!--End of Navbar-->
+
+<!--Large Text-->
+<div class="section no-pad-bot" id="index-banner">
+ <div class="container">
+     <h3 class="header center">News and Photos Dashboard</h3>
+ </div>
+</div>
+<!--End of Large Text-->
+
+
+        <!--Link Cards-->
+        <div class="row center-align">
+          <div class="section">
+           <div class="col m4 s12">
+             <div class="card">
+               <div class="dashboard card-image z-depth-5">
+                 <img class="responsive-img" src="images/pinned-map.jpg" alt="View Favorites">
+               <span id="favorites-title" class="card-title black-text">Favorites</span>
+               </div>
+               <div class="card-content z-depth-5">
+                 <p>Click the button below to view the places and news articles you added to your favorites page.</p>
+               </div>
+               <div class="card-action">
+                 <a id="favorites" href="favorites.html" class="waves-effect waves-light blue darken-3 btn"><i class="material-icons right">thumb_up</i>Favorites</a>
+               </div>
+             </div>
+           </div>
+           <div class="col m4 s12">
+            <div class="card">
+              <div class="dashboard card-image z-depth-5">
+                  <img class="responsive-img" src="images/raleigh-nc.jpg" alt="Search City">
+                <span id="places-title" class="card-title black-text">Search Places</span>
+              </div>
+              <div class="card-content z-depth-5">
+                <p>Click the button below to search for places on location, distance, and type categories.</p>
+              </div>
+              <div class="card-action">
+                <a id="places" href="places-search.html" class="waves-effect waves-light blue darken-3 btn"><i class="material-icons right">search</i>Places</a>
+              </div>
+            </div>
+          </div>
+          <div class="col m4 s12">
+            <div class="card">
+              <div class="dashboard card-image z-depth-5">
+                  <img class="responsive-img" src="images/newspaper.jpg" alt="Search News">
+                <span id="news-title" class="card-title black-text">Search News</span>
+              </div>
+              <div class="card-content z-depth-5">
+                <p>Click the button below to search news articles based on location, distance, and type categories.</p>
+              </div>
+              <div class="card-action">
+                <a id="news" href="news-article-search.html" class="waves-effect waves-light blue darken-3 btn"><i class="material-icons right">search</i>News</a>
+              </div>
+            </div>
+          </div>
+         </div>
+
+         </div>
+         <!--Link Cards End-->
+
+  <!--Footer-->
+  <footer class="page-footer blue darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Created by</h5>
+          <p class="grey-text text-lighten-4">Sam Guevara, Britt Melia, and Nicholas Romano </p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contributors Githubs</h5>
+          <ul>
+           <li><a class="grey-text text-lighten-3" href="https://github.com/samuelguevara98">Sam's Github</a></li>
+           <br>
+           <li><a class="grey-text text-lighten-3" href="https://github.com/meliabt19">Britts Github</a></li>
+           <br>
+           <li><a class="grey-text text-lighten-3" href="https://github.com/nicholas-romano">Nicks Github</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Copyright 
+      <a class="grey-text text-lighten-4 right" href="#!"></a>
+      </div>
+    </div>
+  </footer>
+  <!--End of Footer-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/mobile-nav.js"></script>
+</body>
+</html

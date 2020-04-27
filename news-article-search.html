@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--Local CSS-->
+   <link type="text/css" rel="stylesheet" src="css/styles.css">
+   <!--Reset CSS-->
+   <link type="text/css" rel="stylesheet" src="css/reset.css">
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+ <title>News & Photos Search</title>
+
+
+</head>
+<body>
+   <!--Navbar-->
+  <div class="navbar-fixed"> 
+    <nav>
+      <div class="nav-wrapper blue darken-3">
+        <a href="#!" class="brand-logo"><i class="material-icons">blur_on</i>News and Photos</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="places-search.html">Search Places</a></li>
+          <li class="active"><a href="news-article-search.html">Search News</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Dashboard</a></li>
+    <li><a href="places-search.html">Search Places</a></li>
+    <li class="active"><a href="news-article-search.html">Search News</a></li>
+    <li><a href="favorites.html">Favorites</a></li>
+  </ul>
+  <!--End of Navbar-->
+   
+   <!--Large Text-->
+   <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <h3 class="header center">Search News Articles</h3>
+    </div>
+   </div>
+   <!--End of Large Text-->
+
+   <!-- Favorite Saved Confirmation -->
+   <div id="modal1" class="modal">
+    <div class="modal-content">
+
+      <h4>Article Saved to Favorites List</h4>
+      <p>You can view this article by clicking on the favorites link above.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect blue darken-3 btn-flat">Ok</a>
+    </div>
+  </div>
+
+
+  <!-- Photos button displays photos here -->
+   <div id="images-container" class="col s12">
+    <button id="close-photo-box" class="btn right blue darken-3" onclick="closeImageBox()"><i class="material-icons">close</i></button>
+    <div class="row">
+      <div class="photo-box">
+
+      </div>
+    </div>
+  </div>
+  
+    <!-- Search Form -->
+      <div class="row">
+        <form id="search-form" class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+                <input placeholder="Keywords" id="keywords" type="text" class="validate">
+            </div>
+        </div>
+      <div class="row">
+          <div class="col s12">
+            <button id="send-query" class="btn waves-effect waves-light right blue darken-3" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+          </div>
+      </div>
+    </form>
+
+    <div id="newsResults">
+     
+    </div>
+  </div>
+<!--End of Search Form-->
+
+    <!-- Preloader wheel -->
+    <div id="loader" class="preloader-wrapper big active center-align">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Preloader wheel -->
+  
+    <!--Footer-->
+    <footer class="page-footer blue darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Created by</h5>
+            <p class="grey-text text-lighten-4">Sam Guevara, Britt Melia, and Nicholas Romano </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contributors Githubs</h5>
+            <ul>
+             <li><a class="grey-text text-lighten-3" href="https://github.com/samuelguevara98">Sam's Github</a></li>
+             <br>
+             <li><a class="grey-text text-lighten-3" href="https://github.com/meliabt19">Britts Github</a></li>
+             <br>
+             <li><a class="grey-text text-lighten-3" href="https://github.com/nicholas-romano">Nicks Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2020 Copyright 
+        <a class="grey-text text-lighten-4 right" href="#!"></a>
+        </div>
+      </div>
+    </footer>
+    <!--End of Footer-->
+  
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="js/mobile-nav.js"></script>
+     <script src="js/news-article-search.js"></script>
+</body>
+</html>

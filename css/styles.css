@@ -1,0 +1,329 @@
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+  }
+
+  .sidenav li.active {
+      background-color: #90caf9;
+
+  }
+
+  .sidenav li:hover {
+      background-color: #1565c0;
+      color: white;
+  }
+
+  .sidenav li a:hover {
+    color: white;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+    /* darker blue */
+    background-color: #1565c0;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+    /* lighter blue */
+    background-color: #1976d2; 
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #1565c0;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #1565c0;
+}
+
+.input-field input[type="text"].validate:focus{
+    border-bottom: 2px solid #1565c0;
+}
+
+input[type=range]+.thumb {
+    background-color: #1565c0;
+}
+
+select {
+    display: block;
+}
+
+.fine-text {
+    font-size: 10pt;
+    font-style: italic;
+    color: #ccc;
+}
+
+.search_result .card {
+    min-height: 650px;
+}
+
+#favorites-title, #places-title, #news-title {
+    font-size: 18pt;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    opacity: .7;
+}
+
+
+
+.dashboard.card-content {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.dashboard.card-content img {
+    margin: 0 auto;
+}
+
+hr { 
+    display: block;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    border-color: lightgray;
+  } 
+
+h1 {
+    background-color: lightgray; 
+    border-radius: 20px; 
+    width: auto;
+    height: auto;
+
+}
+
+h2 {
+    background-color: lightgray; 
+    border-radius: 20px; 
+    width: auto;
+    height: auto;
+}
+
+h3 {
+    font-size: 50px;
+}
+
+#search-mod {
+    font-size: 32px;
+}
+
+.card {
+    margin-right: 10px;
+    min-height: 305px;
+    min-width: 100px;
+}
+
+.tabs {
+    color: blue;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding-right: 50px;
+    
+}
+
+.card-banner {
+    border-style: double;
+    border-color: blue;
+}
+
+.card-subtitle {
+    font-size: 12pt;
+    color: white;
+}
+
+.card-content p {
+    font-size: 12pt;
+    padding: 10px 0;
+    line-height: 1.5em;
+}
+
+.cat {
+    font-size: 9px;
+    font-style: italic;
+    color: #838485;
+    padding: 10px 0;
+    line-height: 1.5em;
+}
+
+.cat-title {
+    color: #000;
+}
+
+.btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.Open {
+    color: #2C9426;
+    font-weight: bold;
+}
+
+.Closed {
+    color: #A81E1E;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 12pt;
+    color: #333;
+}
+
+.rating {
+    font-size: 12pt;
+    color: #333;
+    margin-left: 30px;
+}
+
+.rating-value {
+    color: #190F9E;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 12pt;
+    color: #333;
+    margin-left: 30px;
+}
+
+.price-value {
+    font-weight: bold;
+}
+
+.card-image {
+    margin: 0 auto;
+}
+
+.card-image img {
+    max-height: 400px;
+}
+
+.img-not-available {
+    background-color: #ccc;
+    height: 300px;
+    width: 400px;
+}
+
+.NA {
+    font-weight: bold;
+    font-size: 10pt;
+    font-style: italic;
+    color: #ccc;
+
+}
+
+#list-of-favorites {
+    position: relative;
+}
+
+
+#images-container {
+    display: none;
+    background-color: #eee;
+    position: absolute;
+    z-index: 9;
+    box-shadow: 3px 3px 3px #838485;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 40px;
+}
+
+.modal-close {
+    color: white;
+}
+
+
+@media only screen and (max-width: 992px) {
+    h3.header {
+        font-size: 30pt;
+    }
+    .card-action #favorites {
+        min-width: 145px;
+    }
+    
+    .card-action #places {
+        min-width: 123px;
+    }
+    
+    .card-action #news {
+        min-width: 110px;
+    }
+
+    #favorites-title, #places-title, #news-title {
+        font-size: 18pt;
+        text-align: center;
+    }
+
+    #favorites-title, #places-title, #news-title {
+        font-size: 16pt;
+    }
+}
+
+@media only screen and (max-width: 718px) {
+
+    .card-action #favorites {
+        min-width: 128px;
+        font-size: 8pt;
+    }
+    
+    .card-action #places {
+        min-width: 113px;
+        font-size: 8pt;
+    }
+    
+    .card-action #news {
+        min-width: 100px;
+        font-size: 8pt;
+    }
+
+    #favorites-title, #places-title, #news-title {
+        font-size: 14pt;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    h3.header {
+        font-size: 22pt;
+    }
+
+    .card-action #favorites {
+        min-width: 145px;
+        font-size: 12pt;
+    }
+    
+    .card-action #places {
+        min-width: 123px;
+        font-size: 12pt;
+    }
+    
+    .card-action #news {
+        min-width: 110px;
+        font-size: 12pt;
+    }
+
+    #favorites-title, #places-title, #news-title {
+        font-size: 18pt;
+    }
+
+    .nav-wrapper .brand-logo {
+        font-size: 14pt;
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    h3.header {
+        font-size: 20pt;
+    } 
+
+    .nav-wrapper .brand-logo {
+        font-size: 12pt;
+    }
+    
+}
