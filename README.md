@@ -19,7 +19,7 @@ This application utilizes the Google Places API and the News API to search for i
 3.  Select Open webpage in a browser.  
  
 ## Usage 
-1.  The user can search for places by keywords, specific locations, company name, type category, and by distance from a particular location. ![Places-News-Search](/images/Places-News-Search.png)  
+1.  The user can search for places by keywords, specific locations, company name, type category, and by distance from a particular location. ![Places-Search](/images/Search-Places.png)  
 2.  The results returned include the place name, address, and picture, the place’s category type, whether it’s currently open or closed, its rating, and its price level. ![Places-Type-Search-Results](/images/Places-Type-Search-Results.png) 
 3.  The News Article search page searches based on keyword and it returns the article title, a picture for the article, a summary description, author, and link to the article page. ![Search-News-Articles-Results](/images/Search-News-Articles-Results.png) 
 4.  The Places Search results section also allows the user to view up to ten more photos about a particular place. This section is displayed in an overlay container which can be closed by pressing the X button. ![Photos-Overlay](/images/Photos-Overlay.png) 
