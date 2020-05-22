@@ -1,5 +1,4 @@
-
-const PLACES_API_KEY = 'AIzaSyA226PQXOi5BSA7kJuRJYQxforZ980b7_s';
+const PLACES_API_KEY = config.PLACES_API_KEY;
 
 var place_types = [
                     {value: "airport", text: "Airport"}, {value: "amusement_park", text: "Amusement Park"}, {value: "aquarium", text: "Aquarium"}, {value: "art_gallery", text: "Art Gallery"},
