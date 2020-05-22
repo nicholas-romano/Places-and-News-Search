@@ -76,25 +76,31 @@
   </div>
   
     <!-- Search Form -->
-      <div class="row">
-        <form id="search-form" class="col s12">
+    <div class="row">
+      <form id="search-form" class="col s12">
+          <div class="row">
+              <div class="input-field col s12">
+                  <input placeholder="Keywords" id="keywords" type="text" class="validate">
+              </div>
+          </div>
         <div class="row">
-            <div class="input-field col s12">
-                <input placeholder="Keywords" id="keywords" type="text" class="validate">
+            <div class="col s12">
+              <button id="send-query" class="btn waves-effect waves-light right blue darken-3" type="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+              </button>
             </div>
         </div>
-      <div class="row">
+        <div class="row">
           <div class="col s12">
-            <button id="send-query" class="btn waves-effect waves-light right blue darken-3" type="submit" name="action">Submit
-                <i class="material-icons right">send</i>
-            </button>
+            <p>
+              <a href="newsapi.org">newsapi.org</a>
+            </p>
           </div>
+        </div>
+      </form>
+      <div id="newsResults">
+      
       </div>
-    </form>
-
-    <div id="newsResults">
-     
-    </div>
   </div>
 <!--End of Search Form-->
 
