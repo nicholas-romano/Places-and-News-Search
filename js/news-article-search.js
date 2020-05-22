@@ -1,3 +1,4 @@
+const NEWS_API_KEY = config.NEWS_API_KEY;
 
 let article_info = {};
 let article_data = [];
@@ -13,9 +14,9 @@ $(document).ready(function(){
         event.preventDefault();
         let query = $("#keywords").val();
         /* Isuses with spaces in the query, fixed with this code. */
-        let remove_space = query.replace(/ /g,'-'); 
+        query = query.replace(/ /g,'-'); 
         /* URL DATE NEEDS TO BE UPDATED, KEY LETS DATA RETRIEVE FROM A MONTH AGO */
-        let url = `https://newsapi.org/v2/everything?q=${remove_space}&from=2020-04-04&to=2020-04-04&sortBy=popularity&apiKey=a75938fbed57442696e756c8b556a3e8`;
+        let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=${query}&apiKey=${NEWS_API_KEY}`;
         if (query !== ""){
             $.ajax({
                 url: url,
