@@ -1,3 +1,4 @@
+const config = require('../config.js');
 const NEWS_API_KEY = config.NEWS_API_KEY;
 
 let article_info = {};

@@ -1,4 +1,4 @@
-require('dotenv').config();
+const config = require('../config.js');
 const PLACES_API_KEY = config.PLACES_API_KEY;
 
 var place_types = [
