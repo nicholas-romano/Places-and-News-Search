@@ -1,3 +1,5 @@
+var config = require(__dirname + '/../config.js')[env];
+
 const NEWS_API_KEY = config.NEWS_API_KEY;
 
 let article_info = {};

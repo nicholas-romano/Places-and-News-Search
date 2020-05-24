@@ -1,3 +1,5 @@
+var config = require(__dirname + '/../config.js')[env];
+
 const PLACES_API_KEY = config.PLACES_API_KEY;
 
 var place_types = [
