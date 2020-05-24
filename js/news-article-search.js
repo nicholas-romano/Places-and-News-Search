@@ -1,5 +1,4 @@
-const config = require('/../config.js')
-
+require('dotenv').config();
 const NEWS_API_KEY = config.NEWS_API_KEY;
 
 let article_info = {};
