@@ -355,6 +355,8 @@ function getPlaceRating(place) {
 
 function getPhotoReference(place) {
 
+    console.log("place: ", place);
+
     var photo_reference
 
     if (place.photos !== undefined) {

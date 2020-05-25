@@ -1,4 +1,4 @@
-const PLACES_API_KEY = 'AIzaSyA226PQXOi5BSA7kJuRJYQxforZ980b7_s';
+const PLACES_API_KEY = 'AIzaSyA_aM59z9COKbePB2V9d5YT5WsXjeF1YwE';
 var scrollPosition = 0;
 
 $(document).ready(function() {
