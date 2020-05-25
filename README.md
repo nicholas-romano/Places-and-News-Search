@@ -14,9 +14,11 @@ This application utilizes the Google Places API and the News API to search for i
 * [Questions](#questions) 
  
 ## Installation 
-1.  Navigate to the root folder of the application.  
-2.  Right-click the index.html page  
-3.  Select Open webpage in a browser.  
+1. Get two API keys to use for this application by going to: [Google Places API](https://developers.google.com/places/web-service/intro) to search for places, and going to [News API](https://newsapi.org/) to search for news articles.
+2. Add these API keys to your js files to use in your AJAX calls.
+3. Navigate to the root folder of the application.  
+4. Right-click the index.html page  
+5. Select Open webpage in a browser.  
  
 ## Usage 
 1.  The user can search for places by keywords, specific locations, company name, type category, and by distance from a particular location. ![Places-Search](/images/Search-Places.png)  
