@@ -1,0 +1,27 @@
+{
+  "name": "places-and-news-search",
+  "version": "1.0.0",
+  "description": "search for places and news",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholas-romano/Places-and-News-Search.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "jquery",
+    "javascript",
+    "ajax",
+    "api"
+  ],
+  "author": "nick romano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicholas-romano/Places-and-News-Search/issues"
+  },
+  "homepage": "https://github.com/nicholas-romano/Places-and-News-Search/index.html"
+}
